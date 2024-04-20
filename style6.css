@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    text-decoration: none;
+}
+.logo{
+    float: left;
+    font-size: x-large;
+    display: flex;
+    font-weight: bold;
+    color: grey;
+    height: 100%;
+    width: 30vw;
+    padding: 10px;
+}
+.logo p{
+    display: flex;
+    float: left;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+}
+.image1{
+    float: left;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+nav ul{
+    display: flex;
+    float: right;
+    text-decoration: none;
+    justify-content: space-between;
+    letter-spacing: 1.5px;
+}
+nav li{
+    display: flex;
+    float: right;
+}
+nav a{
+    float: right;
+    padding: 15px;
+    color: white;
+    display: inline-flex;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav a:hover{
+    background-color: brown;
+    color: blue;
+    transition: 0.4s;
+}
+body{
+    background-image: url(lamp.jpg);
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    width: 100vw;
+    height: 90vh;
+}
